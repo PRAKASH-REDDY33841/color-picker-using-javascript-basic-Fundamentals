@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Color Picker Using Javascript Fundamentals</title>
+</head>
+<body>
+    <div class="bg-container d-flex flex-column justify-content-center align-items-center" id="background-container">
+          <h1 class="mb-3 heading-Ele">Color Picker</h1>
+          <div class="d-flex flex-row justify-content-center">
+          
+          <button class = "color-box mr-3" onClick="changeBackgroundButton1()">#e0e0e0</button>
+          <button class = "color-box-1 mr-3" onClick="changeBackgroundButton2()">#6fcf97</button>
+          <button class = "color-box-2 mr-3" onClick="changeBackgroundButton3()">#56ccf2</button>
+          <button class = "color-box-3 mr-3" onClick="changeBackgroundButton4()">#bb6bd9</button>
+          </div>
+          
+          <h1 class ="heading-background-color">Background Color : <span class="span-element" id="color-span">#e0e0e0</span></h1>
+          <p class="para-ele">Try clicking on one of these colors above to change the background color of this page!</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
